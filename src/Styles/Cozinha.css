@@ -1,0 +1,152 @@
+.cz-hero {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	width: auto;
+	height: 500px;
+	background-image: url('../assets/Hero_food.jpg');
+	background-size: cover;
+	background-position: center;
+	color: white;
+	margin: 3rem;
+	border-radius: 10%;
+}
+
+.cz-hero-content {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.cz-hero-title {
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+}
+.cz-hero-text {
+	font-weight: 600;
+}
+
+.cz-body {
+	background-color: rgb(231, 229, 229);
+	margin: 3rem;
+	border-radius: 3%;
+	display: flex;
+	height: 500px;
+}
+
+.cz-body ul {
+	list-style: none;
+}
+
+.cz-body-left {
+	position: relative;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.cz-body-left h2 {
+	position: absolute;
+	top: 10px;
+	margin-left: 20px;
+}
+
+.cz-body-left-items {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	text-align: left;
+}
+
+.cz-body-left-items li {
+	margin: 5px 20px;
+}
+
+.cz-body-mid {
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+
+.cz-body-right {
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.cz-body-mid-items li {
+	margin: 10px 20px;
+	font-size: 1.5rem;
+}
+
+.cz-body-right-items {
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.cz-body-right-items li {
+	border: 1px solid black;
+	padding: 7px 15px;
+	border-radius: 45%;
+	margin: 5px;
+}
+
+.highlight {
+	background-color: black;
+	color: white;
+}
+
+.cz-body-right-cards {
+	display: flex;
+}
+
+.cz-body-right-card,
+.cz-body-right-card-2 {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	margin-top: 15px;
+}
+
+.cz-body-right-card img,
+.cz-body-right-card-2 img {
+	width: 100%;
+	height: 150px;
+	border-radius: 10%;
+	margin-bottom: 15px;
+}
+
+.cz-body-right-card-2 img {
+	overflow: hidden;
+}
+
+.cz-body-right-card-2 {
+	margin-left: 15px;
+}
+
+.cz-body-right-card h3,
+.cz-body-right-card-2 h3 {
+	font-weight: 700;
+	font-size: 1.5rem;
+	margin-bottom: 3px;
+}
+
+.cz-body-right-buttons {
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+}
+
+.cz-body-right-buttons button {
+	padding: 15px;
+	background-color: rgb(146, 145, 145);
+	border-radius: 50%;
+	margin-left: 15px;
+	color: rgb(231, 229, 229);
+}
